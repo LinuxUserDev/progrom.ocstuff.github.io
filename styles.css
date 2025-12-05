@@ -5,23 +5,23 @@ body {
     font-family: sans-serif;
 }
 
-bold {
+.bold {
     font-weight: bold;
 }
 
-italic {
+.italic {
     font-style: italic;
 }
 
-ob {
+.oblique {
     font-style: oblique;
 }
 
-noTextShadow {
-    text-shadow: 0px, 0px, 9px, #0096FF;
+.noTextShadow {
+    text-shadow: 0px 0px 9px #0096FF;
 }
 
-textshadowp {
+.textshadowp {
     display: block;
     text-shadow: 2px 2px 5px #00FFFF;
     color: #fff;
@@ -29,27 +29,27 @@ textshadowp {
     line-height: 1rem;
 }
 
-header1TextShadow {
+.header1TextShadow {
     text-shadow: 2px 2px 6px #0096FF;
 }
 
-header2TextShadow {
+.header2TextShadow {
     text-shadow: 1px 1px 4px #0096FF;
 }
 
-header1 {
+.header1 {
     font-size: 4rem;
     display: block;
     margin: 10px 0;
 }
 
-header2 {
+.header2 {
     font-size: 2rem;
     display: block;
     margin: 8px 0;
 }
 
-note {
+.note {
     background: #ffffa5;
     padding: 5px 8px;
     border-left: 4px solid #ffda00;
@@ -58,7 +58,7 @@ note {
     box-shadow: 0 0 10px #ffda00;
 }
 
-box {
+.box {
     display: block;
     background: #111;
     padding: 10px;
@@ -67,7 +67,7 @@ box {
     box-shadow: 0 0 10px #0ff;
 }
 
-borderbox {
+.borderbox {
     display: block;
     border: 2px solid #0ff;
     padding: 10px;
@@ -76,7 +76,7 @@ borderbox {
     box-shadow: 0 0 15px #0ff, 0 0 30px #0ff inset;
 }
 
-marginbox {
+.marginbox {
     display: block;
     background: #222;
     margin: 25px;
@@ -85,7 +85,7 @@ marginbox {
     box-shadow: 0 0 10px #ff00ff;
 }
 
-paddingbox {
+.paddingbox {
     display: block;
     background: #222;
     padding: 25px;
@@ -94,7 +94,7 @@ paddingbox {
     box-shadow: 0 0 20px #0f0;
 }
 
-divider {
+.divider {
     display: block;
     height: 2px;
     background: #0ff;
@@ -102,7 +102,7 @@ divider {
     box-shadow: 0 0 8px #0ff;
 }
 
-spacer {
+.spacer {
     display: block;
     height: 20px;
     width: 100%;
